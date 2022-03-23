@@ -1,11 +1,11 @@
 package com.bridgelabz;
 
 public class Main {
-
 	public static void main(String[] args) {
 		
 		Testmaximum test1 = new Testmaximum();
-		Integer[] inputArray = {2,3,4};
+		Float[] inputArray = {1.1f,2.3f,3.6f};
 		test1.maxElement(inputArray);
 	}
+
 }
