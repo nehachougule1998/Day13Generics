@@ -1,7 +1,7 @@
 package com.bridgelabz;
 
 public class Testmaximum<T extends Comparable<T>> {
-	private T[] intArray;
+private T[] intArray;
 	
 	Testmaximum(T[] intArray){
 		this.intArray = intArray;
@@ -13,8 +13,10 @@ public class Testmaximum<T extends Comparable<T>> {
 				intArray[i+1] = intArray[i];
 			}
 		}
-		System.out.println(intArray[intArray.length-1]);
+		printMax();
 	}
 	
-	
+	private void printMax() {
+		System.out.println(intArray[intArray.length - 1]);
+	}
 }
