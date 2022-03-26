@@ -3,11 +3,13 @@ package com.bridgelabz;
 public class Main {
 	
 	public static void main(String[] args) {
-		Integer[] i = {2,6,4};
-		String[] s = {"mango","strawberry","Grapes"};
-		Float[] f = {1.4f,3.3f,3.4f};
-		new Testmaximum(i).maxElement();
-		new Testmaximum(s).maxElement();
-		new Testmaximum(f).maxElement();			
+		Integer i = 23, j = 45, k = 60;
+	    Float f = 20.4f, g = 64.67f, h = 45.78f;
+	    String s = "mango", t = "strawberry", q = "Grapes";
+	  
+		new Testmaximum<>(i, j, k).max();
+		new Testmaximum<>(f,g,h).max();
+		new Testmaximum<>(s,t,q).max();
 	}
+
 }
